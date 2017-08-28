@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE5F376C1F53BCEF00BB5B5C /* colorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F376B1F53BCEF00BB5B5C /* colorProvider.swift */; };
 		DEB6A4321F4FC8FB006273AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6A4311F4FC8FB006273AC /* AppDelegate.swift */; };
 		DEB6A4341F4FC8FB006273AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6A4331F4FC8FB006273AC /* ViewController.swift */; };
 		DEB6A4371F4FC8FB006273AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB6A4351F4FC8FB006273AC /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		DEB6A43C1F4FC8FB006273AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB6A43A1F4FC8FB006273AC /* LaunchScreen.storyboard */; };
 		DEB6A4471F4FC8FB006273AC /* FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6A4461F4FC8FB006273AC /* FirstTests.swift */; };
 		DEB6A4521F4FC8FB006273AC /* FirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB6A4511F4FC8FB006273AC /* FirstUITests.swift */; };
+		DEC63B781F50AFE1008D1D0F /* funcProvide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC63B771F50AFE1008D1D0F /* funcProvide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE5F376B1F53BCEF00BB5B5C /* colorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorProvider.swift; sourceTree = "<group>"; };
 		DEB6A42E1F4FC8FB006273AC /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB6A4311F4FC8FB006273AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB6A4331F4FC8FB006273AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		DEB6A44D1F4FC8FB006273AC /* FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB6A4511F4FC8FB006273AC /* FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUITests.swift; sourceTree = "<group>"; };
 		DEB6A4531F4FC8FB006273AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC63B771F50AFE1008D1D0F /* funcProvide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = funcProvide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		DEB6A4251F4FC8FB006273AC = {
 			isa = PBXGroup;
 			children = (
+				DEC63B771F50AFE1008D1D0F /* funcProvide.swift */,
+				DE5F376B1F53BCEF00BB5B5C /* colorProvider.swift */,
 				DEB6A4301F4FC8FB006273AC /* First */,
 				DEB6A4451F4FC8FB006273AC /* FirstTests */,
 				DEB6A4501F4FC8FB006273AC /* FirstUITests */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5F376C1F53BCEF00BB5B5C /* colorProvider.swift in Sources */,
+				DEC63B781F50AFE1008D1D0F /* funcProvide.swift in Sources */,
 				DEB6A4341F4FC8FB006273AC /* ViewController.swift in Sources */,
 				DEB6A4321F4FC8FB006273AC /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +513,7 @@
 				DEB6A4581F4FC8FB006273AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEB6A4591F4FC8FB006273AC /* Build configuration list for PBXNativeTarget "FirstTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				DEB6A45B1F4FC8FB006273AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEB6A45C1F4FC8FB006273AC /* Build configuration list for PBXNativeTarget "FirstUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				DEB6A45E1F4FC8FB006273AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
